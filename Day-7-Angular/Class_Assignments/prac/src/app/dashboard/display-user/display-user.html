@@ -1,0 +1,33 @@
+<p>display-user works!</p>
+
+<div class="user-cards">
+  @for (user of userService.getUsers(); track user.name) {
+    <mat-card class="user-card">
+      <mat-card-content>
+        <div class="user-info">
+          <h2 class="user-name">{{ user.name }}</h2>
+          <p class="user-role">{{ user.role }}</p>
+        </div>
+
+        <div class="user-image-display">
+          <img [src]="user.image" [alt]="user.name" class="user-image">
+        </div>
+
+        <div class="user-details">
+          <div class="detail-item">
+            <strong>Name:</strong> {{ user.name }}
+          </div>
+          <div class="detail-item">
+            <strong>Role:</strong> {{ user.role }}
+          </div>
+          <div class="detail-item">
+            <strong>Image:</strong>
+            <a [href]="user.image" target="_blank">{{ user.image }}</a>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  }
+</div>
+
+

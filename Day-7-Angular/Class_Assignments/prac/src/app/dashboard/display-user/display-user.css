@@ -1,0 +1,78 @@
+.user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.user-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user-info {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.user-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 5px 0;
+}
+
+.user-role {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+  font-style: italic;
+}
+
+.user-image-display {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.user-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+.user-details {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.detail-item {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.detail-item strong {
+  color: #333;
+}
+
+.detail-item a {
+  color: #007bff;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.detail-item a:hover {
+  text-decoration: underline;
+}

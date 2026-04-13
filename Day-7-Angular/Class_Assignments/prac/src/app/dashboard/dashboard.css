@@ -1,0 +1,13 @@
+section{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    border: 5px dashed #c25fff;
+}
+
+section>div:first-child{
+    background-color: #c25fff;
+    width: 20%;
+    height: 100%;
+    border: 2px dashed #185a89;
+}

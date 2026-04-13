@@ -1,0 +1,23 @@
+<p>add-user works!</p>
+<form (ngSubmit)="handleSubmit()">
+    <fieldset>
+        <legend>adduser</legend>
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input type="text" matInput required placeholder="Enter your name" [(ngModel)]="userData.name" name="name">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Role</mat-label>
+            <input type="text" matInput required placeholder="Enter your role" [(ngModel)]="userData.role" name="role">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Image URL</mat-label>
+            <input type="text" matInput required placeholder="Enter image URL" [(ngModel)]="userData.image" name="image">
+        </mat-form-field>
+    </fieldset>
+
+    <button type="submit" mat-raised-button>Submit</button>
+</form>
+

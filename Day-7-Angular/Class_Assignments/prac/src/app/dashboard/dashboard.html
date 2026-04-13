@@ -1,0 +1,15 @@
+<p>dashboard works!</p>
+<button (click)="navigateToHome()">Go Home</button>
+<div></div>
+<br>
+<section>
+    <div>
+        <a routerLink="/dashboard">Add User</a>
+        <div></div>
+        
+        <a routerLink="showuser">View Users</a>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</section>

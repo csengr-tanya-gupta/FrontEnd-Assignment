@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+}
+
+.top-btn {
+  background-color: purple;
+  color: white;
+}
+
+.del-btn {
+  background-color: red;
+  color: white;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+.task {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+s {
+  color: gray;
+}
